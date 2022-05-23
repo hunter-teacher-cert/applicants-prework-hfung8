@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Beer {
   public static int beers(int numOfBeers){
 
     if (numOfBeers == 0){
@@ -20,7 +20,7 @@ public class Main {
     return 0;
     }
   }
-  
+
   public static void main(String[] args){
     System.out.print(beers(99));
   }
