@@ -6,11 +6,7 @@ public class Craps {
 
   public static int roll(int num){
     Random random = new Random();
-    int number = random.nextInt(num);
-    // so that we don't ever get the number 0
-    if (number == 0){
-      number = roll(num);
-    }
+    int number = random.nextInt(num) + 1;
     return number;
   }
 
