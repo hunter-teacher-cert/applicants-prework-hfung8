@@ -1,5 +1,7 @@
 Exercise 2)
 
+The banana method is setting up an variable called Kiwi which is an integer, and multiplying it by each value inside of 
+the a array, for the length of the a array. 
 
 public static int banana(int[] a) {
     int kiwi = 1;
@@ -10,6 +12,10 @@ public static int banana(int[] a) {
     }
     return kiwi;
 }
+
+The grapefruit method is searching for the index of the grape element in the a array and returning the index.
+If there is no grape element in the a array, then the method returns -1.
+
 public static int grapefruit(int[] a, int grape) {
     for (int i = 0; i < a.length; i++) {
         if (a[i] == grape) {
@@ -18,6 +24,9 @@ public static int grapefruit(int[] a, int grape) {
     }
     return -1;
 }
+
+The pineapple method is counting the amount of times the apple element is in the array a and returning that value. 
+
 public static int pineapple(int[] a, int apple) {
     int pear = 0;
     for (int pine: a) {
