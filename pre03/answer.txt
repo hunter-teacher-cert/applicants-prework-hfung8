@@ -1,0 +1,10 @@
+Exercise 1 
+
+1. The output is: "No, I wug. You wugga wug. I wug."
+
+2. main "No, I"
+   zoop
+   baffle "wug"
+   ping "."
+
+3. It creates an infinite loop. 

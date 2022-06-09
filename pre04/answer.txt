@@ -1,0 +1,28 @@
+1)
+  public static void main (String[] args){
+    if (x > 0 && x < 10){
+      System.out.println("positive digit number");
+    }
+  }
+
+2)
+  main bizz = 5 buzz = 2
+  zoop fred = "just for" bob = 5 "just for"
+  ping "any not more "
+  clink fork = 4 "It's "
+  zoop fred = "breakfast" bob = 4
+
+  The complete output is : 
+  just for
+  any not more 
+  It's breakfast 
+  !
+
+3)
+  nLines n = 4
+  nLines n = 3
+  nLines n = 2
+  nLines n = 1
+
+
+
