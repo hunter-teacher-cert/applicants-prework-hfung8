@@ -5,7 +5,6 @@ import java.lang.Math;
 
 public class Main{
 
-// It consists of testing whether n is a multiple of any integer between 2 and sqrt{n}.
   public static boolean isPrime(int number){
     int sqrt = (int) Math.sqrt(number) + 1;
     System.out.println(sqrt);
@@ -26,8 +25,6 @@ public class Main{
     for (int i = 0; i < array.length; i++){
       array[i] = true;
     }
-
-    // System.out.println(Arrays.toString(array));
     for (int i = 2; i <= num -1 ; i++){
       array[i] = isPrime(i);
     }

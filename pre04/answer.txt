@@ -12,11 +12,17 @@
   clink fork = 4 "It's "
   zoop fred = "breakfast" bob = 4
 
+  The complete output is : 
+  just for
+  any not more 
+  It's breakfast 
+  !
+
 3)
-  countdown n = 1
-  countdown n = 2
-  countdown n = 3
-  countdown n = 4
+  nLines n = 4
+  nLines n = 3
+  nLines n = 2
+  nLines n = 1
 
 
 
